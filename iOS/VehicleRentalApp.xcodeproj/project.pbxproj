@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {};
+    objectVersion = 56;
+    objects = {
+/* Begin PBXBuildFile section */
+		6461A9A2B62FC1F4703D32FE /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F176350CCDDA9AAB1ECBE1A /* Customer.swift */; };
+		D3FB102CB34FBAA5977303AC /* RentalError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EEC61659644FFC57767228 /* RentalError.swift */; };
+		AFCE005BFB92C602FCFE9FDB /* RentalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0FD377FE77D823EFF76BC4 /* RentalManager.swift */; };
+		76E691E1B65B4D70ADFACB95 /* RentalRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0BE4DBB71C3F6251A35C8A /* RentalRecord.swift */; };
+		0FBA1F24CC40AA2744BD544C /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B4C04C653EAB241F267757 /* Vehicle.swift */; };
+		9752AFCF68DD66BEEF65925C /* RentalStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51A81E0C439A304FD046506 /* RentalStore.swift */; };
+		26F1AABEF8D0E2F2A9796A40 /* VehicleRentalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619333DFCEA465130B6378B9 /* VehicleRentalApp.swift */; };
+		7F3BB54FA1AF4B0630889EC5 /* AddVehicleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5838A2D380AF6041D404086A /* AddVehicleView.swift */; };
+		522734A960E866644193FBCD /* CustomersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02371A95F2294078BB48CBDF /* CustomersView.swift */; };
+		40C9046DF55D833D7B5AE5DE /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED39851C04D10146A34ADA9 /* MainTabView.swift */; };
+		92D8BD18AC6644FD48102DC0 /* RentVehicleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1085CB4BF4A4FA35F5C439D8 /* RentVehicleView.swift */; };
+		440A6F28498DE4C7B078191D /* RentalSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EF75C1DDB3BEF92789FA06 /* RentalSettingsView.swift */; };
+		BACF024D17BE078AC6832076 /* RentalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7402641CBF411817821A672E /* RentalsView.swift */; };
+		74A9C75A068B7A39C1B5F497 /* SharedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A182481E8EC4350336BD8500 /* SharedViews.swift */; };
+		371063E05C4A746713972048 /* VehiclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A058D8C5EAC9A82812E4A322 /* VehiclesView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F176350CCDDA9AAB1ECBE1A /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		04EEC61659644FFC57767228 /* RentalError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalError.swift; sourceTree = "<group>"; };
+		9B0FD377FE77D823EFF76BC4 /* RentalManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalManager.swift; sourceTree = "<group>"; };
+		FC0BE4DBB71C3F6251A35C8A /* RentalRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalRecord.swift; sourceTree = "<group>"; };
+		98B4C04C653EAB241F267757 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		E51A81E0C439A304FD046506 /* RentalStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalStore.swift; sourceTree = "<group>"; };
+		619333DFCEA465130B6378B9 /* VehicleRentalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleRentalApp.swift; sourceTree = "<group>"; };
+		5838A2D380AF6041D404086A /* AddVehicleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVehicleView.swift; sourceTree = "<group>"; };
+		02371A95F2294078BB48CBDF /* CustomersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomersView.swift; sourceTree = "<group>"; };
+		EED39851C04D10146A34ADA9 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		1085CB4BF4A4FA35F5C439D8 /* RentVehicleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentVehicleView.swift; sourceTree = "<group>"; };
+		76EF75C1DDB3BEF92789FA06 /* RentalSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalSettingsView.swift; sourceTree = "<group>"; };
+		7402641CBF411817821A672E /* RentalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalsView.swift; sourceTree = "<group>"; };
+		A182481E8EC4350336BD8500 /* SharedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedViews.swift; sourceTree = "<group>"; };
+		A058D8C5EAC9A82812E4A322 /* VehiclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesView.swift; sourceTree = "<group>"; };
+		83A5DD8EBAFB93BC34E3AB4F /* VehicleRentalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VehicleRentalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+        4E213B6933F940572398526D /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = ();
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+        9FBF2A128C7152908DC0E8B3 = {
+            isa = PBXGroup;
+            children = (
+                5525735C2131AD5F16ED3898 /* VehicleRentalCore */,
+                884733B4A5AF57D09D6C5785 /* VehicleRentalApp */,
+                1950A7757E018C1982BB5FAF /* Products */,
+            );
+            sourceTree = "<group>";
+        };
+        5525735C2131AD5F16ED3898 /* VehicleRentalCore */ = {
+            isa = PBXGroup;
+            children = (
+				1F176350CCDDA9AAB1ECBE1A /* Customer.swift */,
+				04EEC61659644FFC57767228 /* RentalError.swift */,
+				9B0FD377FE77D823EFF76BC4 /* RentalManager.swift */,
+				FC0BE4DBB71C3F6251A35C8A /* RentalRecord.swift */,
+				98B4C04C653EAB241F267757 /* Vehicle.swift */,
+            );
+            name = VehicleRentalCore;
+            path = ../../Sources/VehicleRentalCore;
+            sourceTree = "<group>";
+        };
+        884733B4A5AF57D09D6C5785 /* VehicleRentalApp */ = {
+            isa = PBXGroup;
+            children = (
+				E51A81E0C439A304FD046506 /* RentalStore.swift */,
+				619333DFCEA465130B6378B9 /* VehicleRentalApp.swift */,
+                66C44FE243BD70D1A610BE14 /* Views */,
+            );
+            path = VehicleRentalApp;
+            sourceTree = "<group>";
+        };
+        66C44FE243BD70D1A610BE14 /* Views */ = {
+            isa = PBXGroup;
+            children = (
+				5838A2D380AF6041D404086A /* AddVehicleView.swift */,
+				02371A95F2294078BB48CBDF /* CustomersView.swift */,
+				EED39851C04D10146A34ADA9 /* MainTabView.swift */,
+				1085CB4BF4A4FA35F5C439D8 /* RentVehicleView.swift */,
+				76EF75C1DDB3BEF92789FA06 /* RentalSettingsView.swift */,
+				7402641CBF411817821A672E /* RentalsView.swift */,
+				A182481E8EC4350336BD8500 /* SharedViews.swift */,
+				A058D8C5EAC9A82812E4A322 /* VehiclesView.swift */,
+            );
+            path = Views;
+            sourceTree = "<group>";
+        };
+        1950A7757E018C1982BB5FAF /* Products */ = {
+            isa = PBXGroup;
+            children = (
+                83A5DD8EBAFB93BC34E3AB4F /* VehicleRentalApp.app */,
+            );
+            name = Products;
+            sourceTree = "<group>";
+        };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+        0E8A3AD980EC179856012B7E /* VehicleRentalApp */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = C92E154563F850A8030741F1 /* Build configuration list for PBXNativeTarget "VehicleRentalApp" */;
+            buildPhases = (
+                A23C5F782F7E50BA4FB310C0 /* Sources */,
+                4E213B6933F940572398526D /* Frameworks */,
+                D5F2A7C6ADEBC6874CBF151F /* Resources */,
+            );
+            buildRules = ();
+            dependencies = ();
+            name = VehicleRentalApp;
+            productName = VehicleRentalApp;
+            productReference = 83A5DD8EBAFB93BC34E3AB4F /* VehicleRentalApp.app */;
+            productType = "com.apple.product-type.application";
+        };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+        98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+            isa = PBXProject;
+            attributes = {
+                BuildIndependentTargetsInParallel = 1;
+                LastUpgradeCheck = 1500;
+                TargetAttributes = { 0E8A3AD980EC179856012B7E = { CreatedOnToolsVersion = 15.0; }; };
+            };
+            buildConfigurationList = D3B36C5C2DC924314C6257CE /* Build configuration list for PBXProject */;
+            compatibilityVersion = "Xcode 14.0";
+            developmentRegion = en;
+            hasScannedForEncodings = 0;
+            knownRegions = (en, Base);
+            mainGroup = 9FBF2A128C7152908DC0E8B3;
+            productRefGroup = 1950A7757E018C1982BB5FAF /* Products */;
+            projectDirPath = "";
+            projectRoot = "";
+            targets = (0E8A3AD980EC179856012B7E /* VehicleRentalApp */);
+        };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+        D5F2A7C6ADEBC6874CBF151F /* Resources */ = {
+            isa = PBXResourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = ();
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+        A23C5F782F7E50BA4FB310C0 /* Sources */ = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                6461A9A2B62FC1F4703D32FE /* Customer.swift in Sources */,
+                D3FB102CB34FBAA5977303AC /* RentalError.swift in Sources */,
+                AFCE005BFB92C602FCFE9FDB /* RentalManager.swift in Sources */,
+                76E691E1B65B4D70ADFACB95 /* RentalRecord.swift in Sources */,
+                0FBA1F24CC40AA2744BD544C /* Vehicle.swift in Sources */,
+                9752AFCF68DD66BEEF65925C /* RentalStore.swift in Sources */,
+                26F1AABEF8D0E2F2A9796A40 /* VehicleRentalApp.swift in Sources */,
+                7F3BB54FA1AF4B0630889EC5 /* AddVehicleView.swift in Sources */,
+                522734A960E866644193FBCD /* CustomersView.swift in Sources */,
+                40C9046DF55D833D7B5AE5DE /* MainTabView.swift in Sources */,
+                92D8BD18AC6644FD48102DC0 /* RentVehicleView.swift in Sources */,
+                440A6F28498DE4C7B078191D /* RentalSettingsView.swift in Sources */,
+                BACF024D17BE078AC6832076 /* RentalsView.swift in Sources */,
+                74A9C75A068B7A39C1B5F497 /* SharedViews.swift in Sources */,
+                371063E05C4A746713972048 /* VehiclesView.swift in Sources */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+        A3726B02B7B14ACAA02A9797 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                CLANG_ENABLE_MODULES = YES;
+                ENABLE_STRICT_OBJC_MSGSEND = YES;
+                GCC_C_LANGUAGE_STANDARD = gnu11;
+                IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+                SDKROOT = iphoneos;
+                SWIFT_VERSION = 5.0;
+                TARGETED_DEVICE_FAMILY = "1,2";
+
+                SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+                GCC_OPTIMIZATION_LEVEL = 0;
+            };
+            name = Debug;
+        };
+        8B19A7CE913C88F396775294 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                CLANG_ENABLE_MODULES = YES;
+                ENABLE_STRICT_OBJC_MSGSEND = YES;
+                GCC_C_LANGUAGE_STANDARD = gnu11;
+                IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+                SDKROOT = iphoneos;
+                SWIFT_VERSION = 5.0;
+                TARGETED_DEVICE_FAMILY = "1,2";
+
+                SWIFT_OPTIMIZATION_LEVEL = "-O";
+                GCC_OPTIMIZATION_LEVEL = s;
+            };
+            name = Release;
+        };
+        48BBFFD881E4E1EFBD2D18CF /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 1;
+                GENERATE_INFOPLIST_FILE = YES;
+                INFOPLIST_KEY_CFBundleDisplayName = "Vehicle Rental";
+                INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+                INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+                MARKETING_VERSION = 1.0;
+                PRODUCT_BUNDLE_IDENTIFIER = com.example.VehicleRentalOOP;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+                SWIFT_EMIT_LOC_STRINGS = YES;
+                SWIFT_VERSION = 5.0;
+                TARGETED_DEVICE_FAMILY = "1,2";
+            };
+            name = Debug;
+        };
+        7320814380A01830A6B16D6A /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 1;
+                GENERATE_INFOPLIST_FILE = YES;
+                INFOPLIST_KEY_CFBundleDisplayName = "Vehicle Rental";
+                INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+                INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+                MARKETING_VERSION = 1.0;
+                PRODUCT_BUNDLE_IDENTIFIER = com.example.VehicleRentalOOP;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+                SWIFT_EMIT_LOC_STRINGS = YES;
+                SWIFT_VERSION = 5.0;
+                TARGETED_DEVICE_FAMILY = "1,2";
+            };
+            name = Release;
+        };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+        D3B36C5C2DC924314C6257CE /* Build configuration list for PBXProject */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (A3726B02B7B14ACAA02A9797 /* Debug */, 8B19A7CE913C88F396775294 /* Release */);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        C92E154563F850A8030741F1 /* Build configuration list for PBXNativeTarget */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (48BBFFD881E4E1EFBD2D18CF /* Debug */, 7320814380A01830A6B16D6A /* Release */);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+/* End XCConfigurationList section */
+    };
+    rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}
